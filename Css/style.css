@@ -32,7 +32,7 @@ body {
 .Intro{
 	display: flex;
   	flex-wrap: wrap;
-  	justify-content: space-around;
+  	justify-content: center;
 }
 h1 {
 	color: green;
@@ -55,3 +55,6 @@ a {
 th {
 	background-color: lightblue;
 }
+.zoom:hover {
+	transform: scale(1.5); 
+	.zoom:hover;
