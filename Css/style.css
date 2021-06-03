@@ -1,7 +1,5 @@
 body {
 	margin: 0;
-	font-size: 2vw ;
-	font-size: 15px;
 	
 }
 *{
@@ -13,7 +11,7 @@ body {
 	width: 100vw;
 	height: ;
 	position: fixed;
-	background-color: lightblue;
+	background-color: whitesmoke ;
 	border: 2px solid black;
 	
 	
@@ -21,12 +19,14 @@ body {
 #main {
 	width: 98,5vw;
 	height: ;
-	background-color: yellow;
+	background-image: url(../Foto/Fondo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 	border: 2px solid black;
 
 }
 .Arriba {
-	border: 5px solid lightblue;
+	border: 5px solid whitesmoke	;
 	display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -39,6 +39,7 @@ body {
 }
 h1 {
 	color: green;
+	font-size: 5vw ;
 	text-align: center;
 	font-family: "Times New Roman"
 }
@@ -47,14 +48,17 @@ h4 {
 }
 h2 {
 	text-align: center;
+	color: blue;
 }
 h3 {
 	text-align: center;
 	font-weight: bold;
+	color: greenyellow;
 }
 a {
 	background:lightblue;
 	text-decoration: none;
+	color: black;
 }
 th {
 	background-color: lightblue;
