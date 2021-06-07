@@ -17,7 +17,9 @@ body {
 #main {
 	width: 98,5vw;
 	height: ;
-	background-color: lightgreen;
+	background-image: url(../Foto/Fondo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 	border: 2px solid black;
 
 }
@@ -35,18 +37,22 @@ body {
 }
 h1 {
 	color: yellow;
+	font-size: 5vw ;
 	text-align: center;
 	font-family: "Times New Roman"
 }
 h4 {
 	text-align: center;
+	font-family: "Times New Roman"
 }
 h2 {
 	text-align: center;
+	font-family: "Times New Roman"
 }
 h3 {
 	text-align: center;
 	font-weight: bold;
+	font-family: "Times New Roman"
 }
 a {
 	background:lightblue;
