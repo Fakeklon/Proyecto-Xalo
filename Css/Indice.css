@@ -53,5 +53,7 @@ h3 {
 	font-family: "Times New Roman"
 }
 a {
-	background-color: lightblue;
+	background:lightblue;
+	text-decoration: none;
+	color: black;
 }

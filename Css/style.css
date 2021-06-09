@@ -38,7 +38,7 @@ body {
   	justify-content: center;
 }
 h1 {
-	color: green;
+	color: yellow;
 	font-size: 5vw ;
 	text-align: center;
 	font-family: "Times New Roman"
@@ -49,8 +49,11 @@ h4 {
 }
 h2 {
 	text-align: center;
-	color: blue;
+	color: black;
 	font-family: "Times New Roman"
+}
+h3.fondo{
+	background-color: rgba(0,0,0,0.4);
 }
 h3 {
 	text-align: center;
@@ -64,7 +67,9 @@ a {
 	color: black;
 }
 th {
-	background-color: lightblue;
+	background-color: transparent;
+	border: 3px solid black;
+
 }
 .zoom:hover {
 	transform: scale(1.5); 
@@ -74,4 +79,9 @@ th {
 p {
 	color: blue;
 	font-family: "Times New Roman"
+}
+.scroll
+{
+     overflow-x:scroll;
+     overflow-y:hidden;
 }
