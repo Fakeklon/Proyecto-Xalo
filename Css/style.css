@@ -77,7 +77,7 @@ th {
 }
 
 p {
-	color: blue;
+	color: white;
 	font-family: "Times New Roman"
 }
 .scroll
@@ -85,3 +85,15 @@ p {
      overflow-x:scroll;
      overflow-y:hidden;
 }
+
+.button {
+	background-color: black;
+	border-radius: 10px;
+	color: white;
+	padding: 5px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+  }
