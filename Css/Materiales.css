@@ -4,12 +4,14 @@ body {
 }
 *{
 	box-sizing: border-box;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #header {
-	width: 98,5vw;
+	width: 100vw;
 	height: ;
-	background-color: lightblue;
+	position: fixed;
+	background-color: whitesmoke ;
 	border: 2px solid black;
 	
 	
@@ -24,7 +26,7 @@ body {
 
 }
 .Arriba {
-	border: 5px solid lightblue;
+	border: 5px solid whitesmoke	;
 	display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -33,7 +35,7 @@ body {
 .Intro{
 	display: flex;
   	flex-wrap: wrap;
-  	justify-content: space-around;
+  	justify-content: center;
 }
 h1 {
 	color: yellow;
@@ -47,11 +49,16 @@ h4 {
 }
 h2 {
 	text-align: center;
+	color: black;
 	font-family: "Times New Roman"
+}
+h3.fondo{
+	background-color: rgba(0,0,0,0.4);
 }
 h3 {
 	text-align: center;
 	font-weight: bold;
+	color: greenyellow;
 	font-family: "Times New Roman"
 }
 a {
@@ -59,9 +66,24 @@ a {
 	text-decoration: none;
 	color: black;
 }
-
 th {
 	background-color: lightblue;
+	border: 3px solid black;
+
+}
+.zoom:hover {
+	transform: scale(1.5); 
+	.zoom:hover;
+}
+
+p {
+	color: white;
+	font-family: "Times New Roman"
+}
+.scroll
+{
+     overflow-x:scroll;
+     overflow-y:hidden;
 }
 
 .button {
